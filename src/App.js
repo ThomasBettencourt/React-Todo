@@ -6,7 +6,7 @@ import "./components/Todo.css";
 
 const toDoItems = [
   {
-    chore: "Dog Poop",
+    chore: "Clean up Dog Poop",
     id: 1001,
     completed: false
   },
@@ -18,7 +18,6 @@ const toDoItems = [
 ]
 
 class App extends React.Component {
-
   constructor() {
     super();
     this.state = {
